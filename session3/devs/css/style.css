@@ -1,0 +1,25 @@
+.rounded-border {
+    border-radius: 25px;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.inp-spacing {
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    border-radius: 25px;
+    background-color: rgb(81, 182, 177);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1em;
+}

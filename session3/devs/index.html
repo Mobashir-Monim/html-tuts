@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="">
+        <label>Name:</label>
+        <input type="text" name="name" class="rounded-border w-50 inp-spacing" placeholder="Enter your name">
+        <br>
+        <label>Age:</label>
+        <input type="number" name="age" class="rounded-border w-50 inp-spacing" placeholder="Enter your age">
+        <br>
+        <label>Info:</label>
+        <textarea name="info" cols="30" rows="20" class="rounded-border w-100 inp-spacing" placeholder="Enter your info"></textarea>
+        <select name="semester" class="rounded-border w-50 inp-spacing">
+            <option value="">Select your semester</option>
+            <option value="First Semester">First Semester</option>
+            <option value="Second Semester">Second Semester</option>
+            <option value="Third Semester">Third Semester</option>
+            <option value="Fourth Semester">Fourth Semester</option>
+            <option value="Fifth Semester">Fifth Semester</option>
+            <option value="Sixth Semester">Sixth Semester</option>
+        </select>
+        <input type="text" name="sem" class="rounded-border w-50 inp-spacing" placeholder="Select your semester" list="sem-list">
+        <datalist id="sem-list">
+            <option value="First Semester">First Semester</option>
+            <option value="Second Semester">Second Semester</option>
+            <option value="Third Semester">Third Semester</option>
+            <option value="Fourth Semester">Fourth Semester</option>
+            <option value="Fifth Semester">Fifth Semester</option>
+            <option value="Sixth Semester">Sixth Semester</option>
+        </datalist>
+        <button class="btn w-50" type="submit">Submit</button>
+    </form>
+</body>
+</html>
