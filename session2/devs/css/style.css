@@ -1,0 +1,46 @@
+.column-style {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sl-column {
+    border: 1px solid red;
+    color: blue;
+}
+
+.reg-column {
+    border: 1px solid black;
+    background-color: green;
+}
+
+.img-container {
+    width: 40%;
+    float: left;
+}
+
+.img-container > img {
+    width: 100%;
+}
+
+.description-container {
+    width: 60%;
+    float: left;
+}
+
+.info-container {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.container {
+    float: clear;
+    /* width: 100vw;
+    display: block; */
+}
+
+.test-css {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}

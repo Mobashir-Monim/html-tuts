@@ -1,0 +1,19 @@
+HTML Structure
+
+Tags List:
+1.  <b>
+2.  <blockquote>
+3.  <cite>
+4.  <code>
+5.  <strong>
+6.  <img>
+7.  <a>
+8.  <ul>
+9.  <ol>
+10. <li>
+11. <div>
+12. <span>
+13. <p>
+14. <h1> - <h6>
+
+Develop at least one page
